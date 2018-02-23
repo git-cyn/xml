@@ -2,7 +2,7 @@ package xml;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement //用于标注xml的根元素。一旦类标注了根元素，那么这个类的所有属性，默认映射为根元素的子元素。
 public class Article {
 
 	private String title;
